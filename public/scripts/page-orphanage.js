@@ -29,7 +29,7 @@ function selectImage(event) {
   }
 
   const image = button.children[0]
-  const imageContainer = document.querySelector(".orphange-details > img")
+  const imageContainer = document.querySelector(".orphanage-details > img")
   imageContainer.src = image.src
 
   button.classList.add("active")
